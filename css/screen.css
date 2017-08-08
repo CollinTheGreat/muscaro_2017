@@ -1,0 +1,11 @@
+body {
+  height: 100%;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background: black;
+  /*	background-image: url('/img/jack_with_car.jpg');
+  */
+}
