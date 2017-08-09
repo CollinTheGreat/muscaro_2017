@@ -92,6 +92,7 @@ a{
 		padding: 40px 70px;
 		background-image: url('/img/cream_pixels.png');
 		background-repeat: repeat;
+		overflow: hidden;
 
 		h2{
 			color:red;
@@ -108,11 +109,22 @@ a{
 
 		.past{
 			width: 475px;
+			margin-left: 110%;
+			transition: 1s margin-left ease;
+			-webkit-transition:1s margin-left ease;
 		}
 		.future{
 			width: 475px;
-			float: right;
+			margin-left: -60%;
 			text-align: right;
+			transition: 1s all ease;
+			-webkit-transition:1s all ease;
+		}
+		.past_active{
+			margin-left: 0;
+		}
+		.future_active{
+			margin-left: 50%;
 		}
 	}
 }

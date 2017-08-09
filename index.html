@@ -17,6 +17,9 @@
     <!-- Pure.css -->
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
 
 </head>
 <body>
@@ -59,6 +62,20 @@
 
 
     <div class="spacer"></div> <!-- FOR DEVELOPING USE PLEASE DON'T FORGET TO DELETE -->
+
+<script type="text/javascript">
+
+    $(window).on('scroll',function(){
+        var distance = $(this).scrollTop();
+        if(distance >= 600){
+            $(this).off('scroll');
+
+            $(".past").addClass("past_active");
+            $(".future").addClass("future_active");
+        }
+    });
+
+</script>
 
 </body>
 </html>

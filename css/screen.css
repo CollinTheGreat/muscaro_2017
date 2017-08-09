@@ -88,6 +88,7 @@ a {
   padding: 40px 70px;
   background-image: url("/img/cream_pixels.png");
   background-repeat: repeat;
+  overflow: hidden;
 }
 .home_container .past_future h2 {
   color: red;
@@ -103,11 +104,22 @@ a {
 }
 .home_container .past_future .past {
   width: 475px;
+  margin-left: 110%;
+  transition: 1s margin-left ease;
+  -webkit-transition: 1s margin-left ease;
 }
 .home_container .past_future .future {
   width: 475px;
-  float: right;
+  margin-left: -60%;
   text-align: right;
+  transition: 1s all ease;
+  -webkit-transition: 1s all ease;
+}
+.home_container .past_future .past_active {
+  margin-left: 0;
+}
+.home_container .past_future .future_active {
+  margin-left: 50%;
 }
 
 .spacer {
