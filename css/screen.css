@@ -56,6 +56,35 @@ a {
   border-bottom: red 2px solid;
 }
 
+.home_container {
+  width: 100%;
+  padding-top: 60px;
+}
+.home_container .quote p {
+  color: #153091;
+  font-size: 60px;
+  line-height: 1.2em;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.home_container .quote span {
+  font-size: 18px;
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.home_container .quote b {
+  color: red;
+  font-size: 70px;
+  margin: 0 10px;
+}
+
+.spacer {
+  height: 500px;
+}
+
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
