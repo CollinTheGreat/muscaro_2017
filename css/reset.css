@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  height: 100%;
 }
 
 ol, ul {
@@ -53,4 +54,8 @@ table {
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-position: 0 0;
+}
+
+html{
+  height: 100%;
 }
