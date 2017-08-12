@@ -63,10 +63,16 @@ a{
 }
 .home_container{
 	width: 100%;
-	padding-top: 30px;
 
 	.quote{
+		padding-top: 100px;
 		margin-bottom: 30px;
+		transition:1s ease all;
+		-webkit-transition:1s ease all;
+	}
+	.quote_active{
+		width: 100%;
+		padding-top: 30px;
 	}
 	.quote p{
 		color:#153091;
