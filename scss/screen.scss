@@ -1,3 +1,6 @@
+/*blue color: 153091*/
+
+
 body{
 	font-family: 'Oswald', sans-serif;
 }
@@ -60,10 +63,10 @@ a{
 }
 .home_container{
 	width: 100%;
-	padding-top: 60px;
+	padding-top: 30px;
 
 	.quote{
-		margin-bottom: 60px;
+		margin-bottom: 30px;
 	}
 	.quote p{
 		color:#153091;
@@ -109,13 +112,13 @@ a{
 
 		.past{
 			width: 475px;
-			margin-left: 110%;
+			margin-left: -60%;
 			transition: 1s margin-left ease;
 			-webkit-transition:1s margin-left ease;
 		}
 		.future{
 			width: 475px;
-			margin-left: -60%;
+			margin-left: 110%;
 			text-align: right;
 			transition: 1s all ease;
 			-webkit-transition:1s all ease;
@@ -125,6 +128,50 @@ a{
 		}
 		.future_active{
 			margin-left: 50%;
+		}
+	}
+	.home_donate{
+		width: 100%;
+		height: 400px;
+		background-image: url('/img/jake_waving_wakeman_edit.jpg');
+		background-size: cover;
+		background-position: center;
+
+		.bg_cover{
+			background: rgba(21,48,145,0.8);
+			height: 400px;
+			width: 100%;
+			position: absolute;
+			z-index: 1;
+		}
+		.content_container{
+			position: absolute;
+			height: 400px;
+			width: 100%;
+			z-index: 5;
+			color: white;
+			padding: 100px 0 0 550px;
+
+
+			h2{
+				font-size: 65px;
+				margin-bottom: 20px;
+			}
+			.buttons{
+				margin-top: 60px;
+				a{
+					font-size: 20px;
+					margin-right:60px;
+					border:2px solid white;
+					padding:7px 5px;
+					transition:0.5s ease all;
+					-webkit-transition:0.5s ease all;
+				}
+				a:hover{
+					background: white;
+					color: #153091; 
+				}
+			}	
 		}
 	}
 }
